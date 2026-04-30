@@ -1,0 +1,11 @@
+{
+  "model": "mediapipe_baseline",
+  "classifier": "logreg",
+  "seq_len": 16,
+  "landmarks_root": "data_clean/landmarks",
+  "allow_missing_landmarks": true,
+  "train_size": 10,
+  "val_size": 150,
+  "test_size": 150,
+  "feature_dim": 1008
+}

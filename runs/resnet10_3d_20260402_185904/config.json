@@ -1,0 +1,15 @@
+{
+  "model": "resnet10_3d",
+  "seq_len": 16,
+  "batch_size": 2,
+  "epochs": 1,
+  "learning_rate": 0.001,
+  "image_size": 64,
+  "seed": 20260331,
+  "device": "cpu",
+  "train_size": 700,
+  "val_size": 150,
+  "test_size": 150,
+  "max_train_batches": 1,
+  "max_eval_batches": 1
+}

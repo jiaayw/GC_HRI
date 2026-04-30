@@ -1,0 +1,13 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4348442554473877,
+      "val_loss": 1.596589207649231,
+      "train_accuracy": 1.0,
+      "train_macro_f1": 1.0,
+      "val_accuracy": 0.5,
+      "val_macro_f1": 0.3333333333333333
+    }
+  ]
+}

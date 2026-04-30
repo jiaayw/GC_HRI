@@ -1,0 +1,8 @@
+{
+  "val_loss": 1.596589207649231,
+  "test_loss": 1.575429916381836,
+  "val_accuracy": 0.5,
+  "val_macro_f1": 0.3333333333333333,
+  "test_accuracy": 0.5,
+  "test_macro_f1": 0.3333333333333333
+}
