@@ -9,7 +9,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_CLEAN_ROOT = PROJECT_ROOT / "data_clean"
 ANNOTATIONS_FILE = DATA_CLEAN_ROOT / "annotations.csv"
 SPLITS_FILE = DATA_CLEAN_ROOT / "splits.csv"

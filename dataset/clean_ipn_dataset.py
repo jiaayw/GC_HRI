@@ -22,7 +22,7 @@ from pathlib import Path
 from statistics import mean
 
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RAW_ROOT = PROJECT_ROOT / "raw data"
 ANNOTATIONS_ROOT = RAW_ROOT / "annotations"
 FRAME_ROOT = RAW_ROOT / "frame"

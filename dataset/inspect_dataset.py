@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 
-from bee_wo_dataset import BeeWoClipDataset
+from dataset.bee_wo_dataset import BeeWoClipDataset
 
 
 def parse_args() -> argparse.Namespace:

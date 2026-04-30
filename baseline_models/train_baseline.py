@@ -18,7 +18,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 
 from baseline_models import BeeWoMobileNetV2_3D, BeeWoResNet10_3D
-from bee_wo_dataset import BeeWoClipDataset, build_label_maps
+from dataset.bee_wo_dataset import BeeWoClipDataset, build_label_maps
 from project_models import (
     BeeWoCNNLSTM,
     BeeWoR2Plus1D_18,
